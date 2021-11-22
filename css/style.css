@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3rem;
+	font-size: 3.5rem;
 	font-weight: 1500;
 	margin: 80px 0;
 }
@@ -76,6 +76,10 @@ h6 {
 
 .w-50 {
 	width: 50%;
+}
+
+.w-55 {
+	width: 55%;
 }
 
 .w-60 {
@@ -312,8 +316,9 @@ header a {
 
 /* business operations */
 
-#business-operations h2 {
+#business-operations {
 	margin-top: 200px;
+	margin-bottom: 30px;
 }
 
 #business-operations .col{
@@ -327,4 +332,13 @@ header a {
 #business-operations .row {
 	margin-left: -40px;
 	margin-right: -40px;
+}
+
+#business-operations h2 {
+	margin-bottom: 30px;
+}
+
+#business-operations p,
+#business-operations a {
+	font-size: 1.3rem;
 }
