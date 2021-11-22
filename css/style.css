@@ -1,125 +1,143 @@
+/* Generics */
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.clearfix::after {
-	content: '';
-	clear: both;
-	display: table;
+body {
+	padding-top: 80px;
 }
 
-.left {
-	float: left;
+img {
+	max-width: 100%;
 }
 
-.row::after {
-	content: '';
-	clear: both;
-	display: table;
-}
+/* Layout */
 
-.w-100 {
-	width: 100%;
-	/* RIMUOVI */
-	border: 10px solid orange;
-	background-color: rgba(255, 166, 0, 0.384);
-}
-
-.w-80 {
-	width: 80%;
-	/* RIMUOVI */
-	background-color: rgba(144, 238, 144, 0.438);
-	border: 10px solid lightgreen;
-}
-
-.w-70 {
-	width: 70%;
-
-		/* RIMUOVI */
-		background-color: rgba(0, 128, 0, 0.5);
-		border: 10px solid green;
-		margin: auto;
-}
-
-.w-60 {
-	width: 60%;
-	/* RIMUOVI */
-	background-color: #fff;
-	border: 10px solid black;
+.w-40 {
+	width: 40%;
 }
 
 .w-50 {
 	width: 50%;
-	/* RIMUOVI */
-	background-color: blue;
 }
 
-.w-40 {
-	width: 40%;
-	/* RIMUOVI */
-	background-color: #fff;
-	border: 10px solid black;
-
+.w-60 {
+	width: 60%;
 }
 
-.w-30 {
-	width: 30%;
-
-	/* RIMUOVI */
-	background-color: rgba(137, 43, 226, 0.5);
-	border: 10px solid blueviolet;
+.col {
+	float: left;
 }
 
-.w-20 {
-	width: 20%;
-
-		/* RIMUOVI */
-		background-color: rgba(173, 216, 230, 0.534);
-		border: 10px solid rgb(173, 216, 230);
-}
-
-.h-300 {
-	height: 300px;
-}
-
-.h-150 {
-	height: 150px;
+.container-wide {
+	width: 1600px;
 	margin: auto;
 }
 
-/* header */
+/* Utilities */
 
-.mini-header {
 
-	/* RIMUOVI */
-	height: 100px;
+.clearfix::after, 
+.row::after {
+	clear: both;
+	content: '';
+	display: table;
 }
 
-.bottom-header {
-
-	/* RIMUOVI */
-	height: 800px;
+.right-align {
+	text-align: right;
 }
 
-.jumbotron {
+.btn {
+	padding: 8px 20px;
+	text-decoration: none;
+}
 
-	/* RIMUOVI */
-	margin: 140px auto;
-	height: 500px;
+.btn.btn-small {
 
 }
 
-.long-70 {
-		/* RIMUOVI */
-	height: 1500px;
+.btn.btn-blue {
+	background-color: #0062fb;
+	color: white;
 }
 
-.companies {
-	height: 300px;
+h1 {
+	font-size: 6rem;
+	font-weight: 1500;
+	font-family: sans-serif;
+	line-height: 130px;
+	margin-bottom: 30px;
 }
 
-.long-col {
-	height: 400px;
+/* Header */
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	z-index: 1;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+#top-nav ul {
+	line-height: 80px;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 1.1rem;
+}
+
+#top-nav li {
+	display: inline-block;
+	padding: 0 30px;
+}
+
+
+#dropbox-logo-small {
+	vertical-align: middle;
+}
+
+/* Header */
+
+#spotlight .row {
+	
+	position: relative;
+	bottom: -98px;
+}
+
+#spotlight {
+	width: 100%;
+	background-color: #b4d0e6;
+}
+
+
+#spotlight p {
+	margin-bottom: 30px;
+	margin-top: 10px;
+	padding-right: 10px;
+}
+
+#spotlight p,
+#spotlight a {
+	font-size: 1.2rem;
+}
+
+#spotlight .btn {
+	/* margin: 30px auto; */
+	display: inline-block;
+}
+
+#spotlight i {
+	margin-top: 30px;
 }

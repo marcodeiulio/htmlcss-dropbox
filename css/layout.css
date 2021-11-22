@@ -1,0 +1,212 @@
+/* Generics */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Utilities */
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+/* .left {
+	float: left;
+} */
+
+.right {
+	float: right;
+}
+
+.row::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.w-100 {
+	width: 100%;
+	/* RIMUOVI */
+	border: 10px solid orange;
+	background-color: rgba(255, 166, 0, 0.384);
+}
+
+.w-80 {
+	width: 80%;
+	/* RIMUOVI */
+	background-color: rgba(144, 238, 144, 0.438);
+	border: 10px solid lightgreen;
+}
+
+.w-70 {
+	width: 70%;
+
+		/* RIMUOVI */
+		background-color: rgba(0, 128, 0, 0.5);
+		border: 10px solid green;
+		margin: auto;
+}
+
+.w-60 {
+	width: 60%;
+	/* RIMUOVI */
+	background-color: #fff;
+	border: 10px solid black;
+}
+
+.w-50 {
+	width: 50%;
+	/* RIMUOVI */
+}
+
+.w-40 {
+	width: 40%;
+	/* RIMUOVI */
+	background-color: #fff;
+	border: 10px solid black;
+
+}
+
+.w-30 {
+	width: 30%;
+
+	/* RIMUOVI */
+	background-color: rgba(137, 43, 226, 0.5);
+	border: 10px solid blueviolet;
+}
+
+.w-20 {
+	width: 20%;
+
+		/* RIMUOVI */
+		background-color: rgba(173, 216, 230, 0.534);
+		border: 10px solid rgb(173, 216, 230);
+}
+
+.h-300 {
+	height: 300px;
+}
+
+.h-150 {
+	height: 150px;
+	margin: auto;
+}
+
+.btn {
+	text-decoration: none;
+}
+
+.btn-small {
+	padding: 5px 18px;
+	font-size: 0.9rem;
+}
+
+.btn-blue {
+	background-color: #0061fd;
+	color: white;
+}
+
+/* header */
+
+.mini-header * {
+	vertical-align: middle;;
+}
+.mini-header ul {
+	list-style-type: none;;
+}
+
+.mini-header li {
+	display: inline-block;
+	line-height: 40px;
+}
+
+.mini-header li>a {
+	padding: 20px 20px;
+	text-decoration: none;
+	color: black;
+	font-size: 0.9rem;
+}
+
+.bottom-header {
+
+	/* RIMUOVI */
+	height: 800px;
+}
+
+.jumbotron {
+
+	/* RIMUOVI */
+	margin: 140px auto;
+	height: 500px;
+
+}
+
+.jumbo-img {
+	display: inline-block;
+	width: 70%;
+	height: auto;
+	float: left;
+}
+
+.spot {
+	width: 500px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.long-70 {
+		/* RIMUOVI */
+	height: 1500px;
+}
+
+.companies {
+	height: 300px;
+}
+
+.long-col {
+	height: 400px;
+}
