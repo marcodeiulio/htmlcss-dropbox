@@ -78,10 +78,6 @@ h6 {
 	width: 50%;
 }
 
-.w-55 {
-	width: 55%;
-}
-
 .w-60 {
 	width: 60%;
 }
@@ -179,7 +175,6 @@ header a {
 	padding: 0 30px;
 }
 
-
 #dropbox-logo-small {
 	vertical-align: middle;
 }
@@ -187,7 +182,6 @@ header a {
 /* Header */
 
 #spotlight .row {
-	
 	position: relative;
 	bottom: -98px;
 }
@@ -197,7 +191,6 @@ header a {
 	background-color: #b4d0e6;
 	margin-bottom: 250px;
 }
-
 
 #spotlight p {
 	margin-bottom: 30px;
@@ -284,7 +277,6 @@ header a {
 #enterprise .w-70 {
 	height: 200px;
 	padding-left: 30px;
-
 }
 
 #enterprise .w-30 {
@@ -318,7 +310,7 @@ header a {
 
 #business-operations {
 	margin-top: 200px;
-	margin-bottom: 30px;
+	margin-bottom: 120px;
 }
 
 #business-operations .col{
@@ -334,11 +326,50 @@ header a {
 	margin-right: -40px;
 }
 
-#business-operations h2 {
-	margin-bottom: 30px;
-}
-
 #business-operations p,
 #business-operations a {
 	font-size: 1.3rem;
 }
+
+/* Client Brands */
+
+/* #clients h2 {
+	margin: 0;
+}
+
+#clients a {
+	line-height: 100px;
+}
+
+.client-spotlight {
+	float: left;
+	width: calc((100% / 16)*6);
+	background-color: #aaa;
+	
+}
+
+.client-brands {
+	float: left;
+	width: calc((100% / 16)*5);
+	aspect-ratio: 1 / 1;
+}
+
+.brand-box {
+	float: left;
+	width: calc(100% / 2);
+	aspect-ratio: 1 / 1;
+}
+
+
+
+
+
+
+
+.bg-green {
+	background-color: green;
+}
+
+.bg-blue {
+	background-color: blue;
+} */
