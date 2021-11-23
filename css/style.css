@@ -61,9 +61,6 @@ h5 {
 
 h6 {
 	font-size: 1.5rem;
-	font-weight: normal;
-	margin: 10px auto;
-	text-align: center;
 }
 
 hr.short {
@@ -257,6 +254,12 @@ header a {
 #business-plans .row .card-header {
 	border: solid 1px lightgrey;
 	margin: 0 40px;
+}
+
+#business-plans h6 {
+	font-weight: normal;
+	margin: 10px auto;
+	text-align: center;
 }
 
 #business-plans ul {
@@ -502,4 +505,56 @@ header a {
 
 #faq .w-80 {
 	padding: 25px 25px 25px 0;
+}
+
+/* Footer */
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+footer .row {
+	padding: 100px 10px;
+
+}
+
+footer h6 {
+	font-weight: 600;
+}
+
+footer ul {
+	list-style-type: none;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+footer li a {
+	color: white;
+	text-decoration: none;
+}
+
+#language {
+	display: inline-block;
+	border-top: 1px solid lightgray;
+	padding: 40px 30px 40px 5px;
+}
+
+#language a {
+	color: rgba(211, 211, 211, 0.637);
+	text-decoration: none;
+}
+
+#language a::before {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+	font-size: 1.2rem;
+	content: '\f7a2 ';
+}
+
+#language a::after {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+	font-size: 0.8rem;
+	content: ' \f0d8';
 }
