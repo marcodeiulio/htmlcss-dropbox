@@ -304,6 +304,10 @@ header a {
 	list-style-position: outside;
 }
 
+#business-plans h5 + span {
+	color: gray;
+}
+
 .plan-main-points {
 	margin-top: 40px;
 }
@@ -479,6 +483,7 @@ header a {
 	width: calc(100% / 2);
 	aspect-ratio: 1 / 1;
 	position: relative;
+	transition: border 500ms;
 }
 
 .brand-box img {
@@ -488,6 +493,10 @@ header a {
 	transform: translate(-50%, -50%);
 	filter: invert(1);
 	width: 50%;
+}
+
+.brand-box:hover {
+	border: 20px solid rgba(255, 255, 255, 0.301);
 }
 
 .bg-l-green {
