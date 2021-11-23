@@ -141,9 +141,14 @@ address {
 	color: white;
 }
 
-.btn-white {
-	border: solid 2px black;
+.btn-white-bordered {
+	border: solid 1px black;
 	color: black;
+}
+
+.btn-white {
+	color: black;
+	background-color: #fff;
 }
 
 .btn:hover {
@@ -337,12 +342,12 @@ header a {
 
 /* Client Brands */
 
-#clients h2 {
-	margin: 0;
+#clients .w-100 {
+	margin-top: 50px;
 }
 
-#clients a {
-	line-height: 100px;
+#clients h2 {
+	margin: 0 0 50px 0;
 }
 
 #clients p,
@@ -401,11 +406,6 @@ header a {
 	width: 50%;
 }
 
-
-
-
-
-
 .bg-l-green {
 	background-color: #a2d39b;
 }
@@ -438,3 +438,24 @@ header a {
 	background-color: #ffd830;
 }
 
+/* Vendor */
+
+#vendor {
+	background-color: #b4d0e7;
+	padding: 150px 0;
+}
+
+#vendor .w-70 {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+#vendor .w-30 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#vendor h2 {
+	color: #61082b;
+	margin: 0;
+}
