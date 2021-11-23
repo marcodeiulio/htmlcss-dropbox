@@ -312,6 +312,46 @@ header a {
 	margin: 30px 0;
 }
 
+.starting-icon-reg::before {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+	margin-right: 5px;
+}
+
+.starting-icon-bold::before {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+	margin-right: 5px;
+}
+
+.starting-icon-reg.icon-profile::before {
+	content: '\f007';
+}
+
+.starting-icon-reg.icon-files::before {
+	content: '\f07b';
+}
+
+.starting-icon-bold.icon-pencil::before {
+	content: '\f303';
+}
+
+.starting-icon.icon-profile::before {
+	content: '\f007';
+}
+
+.starting-icon-reg.icon-office::before {
+	content: '\f1ad';
+}
+
+.starting-icon-bold.icon-profile-plus::before {
+	content: '\f234';
+}
+
+.starting-icon-reg.icon-smile::before {
+	content: '\f118';
+}
+
 .plan-highlights li::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
