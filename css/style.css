@@ -202,7 +202,7 @@ header a {
 	margin: 0 30px;
 }
 
-#top-nav li:hover {
+#top-nav li.hover-border:hover {
 	border-bottom: 2px solid black;
 	line-height: 75px;
 }
