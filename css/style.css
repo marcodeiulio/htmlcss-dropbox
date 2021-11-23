@@ -236,6 +236,33 @@ header a {
 	margin-top: 30px;
 }
 
+/* radios */
+
+#radios {
+	width: 1000px;
+	height: 60px;
+	padding-left: 20px;
+}
+
+#checked-radio,
+#unchecked-radio {
+	width: 20px;
+	height: 20px;
+	border: 5px solid #0062fb;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 20px;
+}
+
+#checked-radio {
+	border: 5px solid #0062fb;
+}
+
+#unchecked-radio {
+	border: 1px solid lightgray;
+}
+
 /* business plans */
 
 #business-plans .row {
