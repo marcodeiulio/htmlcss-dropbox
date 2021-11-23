@@ -139,6 +139,8 @@ address {
 .btn {
 	padding: 8px 20px;
 	text-decoration: none;
+	display: inline;
+
 }
 
 .btn.btn-wide {
@@ -185,6 +187,7 @@ header {
 header a {
 	text-decoration: none;
 	color: black;
+	display: inline-block;
 }
 
 #top-nav ul {
@@ -196,7 +199,12 @@ header a {
 
 #top-nav li {
 	display: inline-block;
-	padding: 0 30px;
+	margin: 0 30px;
+}
+
+#top-nav li:hover {
+	border-bottom: 2px solid black;
+	line-height: 75px;
 }
 
 #dropbox-logo-small {
@@ -500,7 +508,8 @@ header a {
 	width: calc(100% / 2);
 	aspect-ratio: 1 / 1;
 	position: relative;
-	transition: border 500ms;
+	border: 20px solid transparent;
+	transition: border 500ms ease-in-out;
 }
 
 .brand-box img {
@@ -513,7 +522,7 @@ header a {
 }
 
 .brand-box:hover {
-	border: 20px solid rgba(255, 255, 255, 0.301);
+	border: 20px solid rgba(255, 255, 255, 0.404);
 }
 
 .bg-l-green {
