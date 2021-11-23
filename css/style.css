@@ -42,6 +42,12 @@ h2 {
 	margin: 80px 0;
 }
 
+h3 {
+	font-size: 3rem;
+	font-weight: 1000;
+	margin-bottom: 50px;
+}
+
 h4 {
 	font-size: 2rem;
 	margin-top: 30px;
@@ -70,6 +76,10 @@ address {
 
 /* Layout */
 
+.w-20 {
+	width: 20%;
+}
+
 .w-33 {
 	width: calc(100% / 3);
 }
@@ -92,6 +102,10 @@ address {
 
 .w-70 {
 	width: 70%;
+}
+
+.w-80 {
+	width: 80%;
 }
 
 .w-100 {
@@ -458,4 +472,34 @@ header a {
 #vendor h2 {
 	color: #61082b;
 	margin: 0;
+}
+
+/* FAQs */
+
+#faq.container {
+	margin: 100px auto;
+}
+
+#faq .faq {
+	border-top: solid 1px lightgrey;
+}
+
+#faq .faq:last-child {
+	border-bottom: solid 1px lightgrey;
+}
+
+#faq .faq .w-20::after {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+	font-size: 1.5rem;
+	content: '\f078';
+}
+
+#faq .w-20 {
+	text-align: right;
+	padding: 30px;
+}
+
+#faq .w-80 {
+	padding: 25px 25px 25px 0;
 }
